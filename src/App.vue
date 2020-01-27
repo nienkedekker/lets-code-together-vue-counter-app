@@ -23,24 +23,40 @@ export default {
 			count: 0
 		}
 	},
-	mounted() {
-  		console.log(this.count);
-	},
 	methods: {
 		incrementCount() {
 			this.count = this.count + 1;
 		},
 		decrementCount() {
-				this.count = this.count - 1;
+			this.count = this.count - 1;
 		},
 		resetCount() {
-				this.count = 0;
+			this.count = 0;
 		},
 	}
 }
 </script>
 
 <style>
+/*
+This is where we'll put our general styling rules.
+They'll serve as a base for all our components.
+For example: the line-height we set here, will 'filter' through to the Button component.
+*/
+
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #212529;
+	font-family: 'Courier New', Courier, monospace;
+	line-height: 1.5;
+	background-color: #faeee7;
+}
+
+* {
+	box-sizing: border-box;
+}
+
 #app {
 	text-align: center;
 	display: flex;

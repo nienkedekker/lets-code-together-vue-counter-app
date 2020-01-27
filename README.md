@@ -11,15 +11,19 @@ This is the *Vue* version for *beginners*: [find its React counterpart here](htt
 Either set up the project locally by cloning it, or by using CodeSandbox.
 
 ### CodeSandbox
-If you're using CodeSandbox, you won't have to worry about installing anything locally.
-1. Just go to CodeSandbox.io and click on "Create Sandbox".
-2. Then choose "Import Project" and copy this repository's URL.
-3. Click "Generate Sandbox" and give it a few seconds to allow it to boot.
+If you're using CodeSandbox, you won't have to worry about installing anything locally. You'll also be able to use the online VSCode Editor! Click the button below, or follow the steps manually:
+
+[![Edit workshop-lets-code-together](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/nienkedekker/lets-code-together-vue-counter-app/tree/master/?fontsize=14&hidenavigation=1&theme=dark)
+
+1. Go to [CodeSandbox.io](https://codesandbox.io/) and click on "Create Sandbox".
+2. Then choose "Import Project" and copy this repository's URL: `https://github.com/nienkedekker/lets-code-together-vue-counter-app`
+3. Click "Generate Sandbox" and give it a few seconds to boot up!
 
 ### Setting it up locally
-1. Clone this repo: `git clone xx`
-2. Run `yarn install`
-3. Run `yarn run serve` for local development
+If you'd rather use your local dev environment, follow these steps:
+1. Clone this repo: `git clone git@github.com:nienkedekker/lets-code-together-vue-counter-app.git`
+2. Run `yarn install` to install the dependencies
+3. Run `yarn run serve` for local development -- follow the instructions to find the URL to your app!
 4. Run `yarn run build` to compile for production
 
 ## Workshop goals
