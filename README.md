@@ -8,14 +8,19 @@ This is the *Vue* version for *beginners*: [find its React counterpart here](htt
 - Workshop organizers: Nienke Dekker & Marlein Rusch
 
 ## Setup
+Either set up the project locally by cloning it, or by using CodeSandbox.
 
-TODO
+### CodeSandbox
+If you're using CodeSandbox, you won't have to worry about installing anything locally.
+1. Just go to CodeSandbox.io and click on "Create Sandbox".
+2. Then choose "Import Project" and copy this repository's URL.
+3. Click "Generate Sandbox" and give it a few seconds to allow it to boot.
 
-## Used
-- git init
-- npm init
-- npm install -g @vue/cli
-- vue create, default settings
+### Setting it up locally
+1. Clone this repo: `git clone xx`
+2. Run `yarn install`
+3. Run `yarn run serve` for local development
+4. Run `yarn run build` to compile for production
 
 ## Workshop goals
 
@@ -32,24 +37,3 @@ Participants can:
 - Integrate CSS into the project
 - Make and apply a reusable component
 - Manage state (on component level)
-
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
